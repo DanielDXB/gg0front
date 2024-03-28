@@ -1,0 +1,1018 @@
+body {
+    background-image: url("91448-fitness-wallpaper-top-free-fitness-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.wrapper {
+    width: 420px;
+    background:transparent;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.wrapper h1 {
+    text-align: center;
+    margin: 36px ;
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: #fff;
+}
+
+.input-box .icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    font-size: 18px;
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin: -15px 0 15px;   
+}
+
+.remember-forgot label input {
+    accent-color: #fff;
+    margin-right: 4px;
+}
+
+.remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.wrapper button {
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+    border: solid #fff;
+
+}
+
+.wrapper .register-link {
+    text-align: center;
+    margin: 20px 0 15px;
+    font-size: 16px;
+}
+
+.register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
+#message {
+    margin-bottom: 10px;
+}
+
+
+
+.irow {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+
+.registerwrapper .iinput-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 10px;
+}
+
+.iinput-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.iinput-box input::placeholder {
+    color: #fff;
+}
+
+.registerwrapper {
+    margin-top: 200px;
+    width: 700px;
+    background:transparent;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.registerwrapper p {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.registerwrapper .iinput-box-bmi p {
+    margin-top: 30px;
+}
+
+.registerwrapper button {
+    width: 50%;
+    height: 50px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+    border: solid #fff;
+    margin-top: 100px;
+
+}
+
+.iinput-box-bmi input {
+
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.iinput-box-bmi input::placeholder {
+    color: #fff;
+}
+
+.registerwrapper .iinput-box-bmi {
+    position: relative;
+    width: 50%;
+    height: 50px;
+    margin: 10px;
+}
+
+.registerwrapper form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.irow {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.iinput-box {
+    width: 48%;
+}
+
+.iinput-box-bmi {
+    width: 100%; 
+    text-align: center;
+}
+
+.inp {
+    width: 100%; 
+}
+
+ul {
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+
+li a{
+    color: #fff;
+    justify-content: space-between;
+    
+}
+
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+    margin-top: 40px;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    color: cornflowerblue;
+}
+
+.inp {
+    border: 2px solid white;
+    border-radius: 40px;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
+    background-color: transparent; /* Ensures the background remains transparent */
+    color: white; /* Sets the text color to white */
+    font-size: 18px; /* Sets the font size */
+    margin-bottom: 10px; /* Adds some spacing between input boxes */
+}
+
+.inp:focus {
+    outline: none; /* Removes the default focus outline */
+}
+
+.inp[type="number"]::-webkit-inner-spin-button,
+.inp[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.inp[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    margin-right: -30px;
+}
+
+.inp {
+    -webkit-appearance: none; /* WebKit browsers */
+    -moz-appearance: none; /* Mozilla Firefox */
+    appearance: none; /* Standard syntax */
+    background-image: url('data:image/svg+xml;utf8,<svg fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position:right;
+    padding-right: 20px; /* Adjust padding to accommodate the arrow */
+}
+
+
+.box span img {
+    border-radius: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    user-select: none;
+}
+
+.box {
+    position: relative;
+    width: 200px;
+    height: 125px;
+    transform-style: preserve-3d;
+    transition: 1.5s;
+    transform: perspective(1000px) rotateY(0deg);
+}
+
+.box span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i) * 27.7deg)) translateZ(600px);
+    -webkit-box-reflect: below 0px linear-gradient(transparent, transparent, #0004);
+}
+
+.btns {
+    position: absolute;
+    bottom: 100px;
+    display: flex;
+    gap: 85px;
+}
+
+.btns .btn {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns .btn:hover {
+    background: #fff;
+    transition: .5s;
+}
+
+.btns .btn::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-top: 3px solid #fff;
+    border-right: 3px solid #fff;
+    transform: rotate(45deg) translate(-2.5px, 2.5px);
+}
+
+.btns .btn.prev::before {
+    transform: rotate(225deg) translate(-2.5px, 2.5px);
+}
+
+.btns .btn:hover::before {
+    border-top: 3px solid #000;
+    border-right: 3px solid #000;
+    transition: .5s;
+}
+
+.box span a{
+    position: relative;
+    color: #fff;
+    bottom: 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 4px;
+    padding-bottom: 150px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+
+.exerciseswrapper {
+    margin-top: 200px;
+    width: 1000px;
+    background:transparent;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    display: flex;
+}
+
+.exerciseswrapper h1 {
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.exerciseswrapper p {
+    margin-left: 30px;
+}
+
+.exerciseswrapper span {
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+.logo {
+    /* position it on top left corner */
+        position: absolute;
+        top: -30px;
+        left: -20px;
+        display: flex;
+        color: #fff;   
+    }
+    
+.logo h1 {
+      align-items: center;
+      justify-content: center;
+      margin-top: 70px;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+        display: flex;
+    justify-content: flex-end;
+        align-items: center;
+        z-index: 1;
+
+    }
+    
+    .navbar {
+        display: flex;
+    }
+    
+    .navbar a {
+        font-size: 18px;
+        color: #fff;
+        font-weight: 500;
+        text-decoration: none;
+        margin-left: 40px;
+        margin-top: 40px;
+        transition: .3s;
+    }
+    
+    .navbar a:hover {
+        color: cornflowerblue;
+    }
+
+
+    .pagination {
+        text-align: center;
+        margin-top: 20px;
+        color: #fff;
+      }
+      
+      .pagination button {
+        background-color: transparent;
+        border: 2px solid #fff;
+        border-radius: 50%; /* Makes the button circular */
+        width: 50px; /* Adjust the width and height as needed */
+        height: 50px;
+        margin: 0 5px; /* Add some margin between buttons */
+        cursor: pointer;
+        color: #fff;
+        transition: .3s;
+      }
+      
+      .pagination button.active {
+        background-color: #fff;
+        color: #000; /* Style for the active button */
+      }
+      
+      .pagination button:hover {
+        background-color: #f0f0f0;
+        color: #000; /* Background color on hover */
+      }
+      
+      .transition {
+        transition: background-color 0.5s;
+      }
+
+      .error {
+        color: #fff;
+        margin-top: 5px;
+    }
+
+.exerciseswrapper img {
+    border-radius: 10px;
+}
+
+.feed {
+    width: 1000px;
+    height: 200px;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+}
+
+.options button{
+    margin-top: 150px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: .5s;
+}
+
+.options button:hover {
+    background-color: white;
+    color: black;
+}
+
+.feed h2{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.form-container {
+    width: 800px;
+    height: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    z-index: 1000; /* Ensure the form appears over other content */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Box shadow for a subtle depth effect */
+    display: block;
+    text-align: center;
+    border: 2px solid white;
+}
+  
+.form-container input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white; /* Add white border */
+    background-color: transparent; /* Set background color to transparent */
+    color: white; /* Set text color to white */
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    color: #fff;
+    height: 100px;
+    font-size: 18px;
+
+}
+
+.form-container button {
+    margin-top: 100px;
+    background-color: transparent;
+    backdrop-filter: blur(10px); 
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: .5s;
+
+}
+
+.form-container button:hover {
+    background-color: white;
+    color: black;
+}
+
+.form-container .close-button {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: right;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 700px;
+    border-radius: 15px;
+}
+
+.form-container textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white; /* Add white border */
+    background-color: transparent; /* Set background color to transparent */
+    color: white; /* Set text color to white */
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    color: #fff;
+    height: 100px;
+    font-size: 18px;
+}
+
+.flex {
+    display: flex;
+    width: 700px;
+}
+
+.flex p {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 770px;
+    margin-top: -20px;
+}
+
+.votes {
+    position: relative;
+    height: 20px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.votes button {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50%; /* Makes the button circular */
+    width: 50px; /* Adjust the width and height as needed */
+    height: 50px;
+    margin: 0 5px; /* Add some margin between buttons */
+    cursor: pointer;
+    color: #fff;
+    transition: .3s;
+    margin-bottom: 20px;
+}
+
+.votes button:hover {
+    background-color: #f0f0f0;
+    color: #000; /* Background color on hover */
+}
+  
+.line {
+    display: flex;
+}
+
+.line p {
+    margin-top: 13px;
+    margin-left: 10px;
+    color: white;
+}
+
+.form-container select {
+    position: absolute;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    height: 50px;
+    margin-left: -317px;
+}
+
+select {
+    padding-right: 25px; /* Adjust as needed */
+  }
+  
+ .flex .category{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.search-bar .irow2 {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+
+.search-bar .iinput-box2 {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 10px;
+}
+
+.iinput-box2 input {
+    width: 500px;
+    height: 100%;
+    background: transparent;
+    backdrop-filter: blur(10px); 
+    margin-right: 120px;
+    border: none;
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.iinput-box2 input::placeholder {
+    color: #fff;
+}
+
+.search-bar button {
+    position: absolute;
+    margin-left: 500px;
+    width: 100px;
+    height: 50px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+    border: solid #fff;
+    margin-top: 20px;
+}
+
+.registerwrapper .elem{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.registerwrapper h2 {
+    margin-bottom: 30px;
+    /* -webkit-text-stroke: 2px navy;
+    text-stroke: 2px navy; */
+}
+
+.label .line{
+    position: relative;
+    width: auto;
+    height: 2px;
+    background-color: #fff;
+}
+
+.vote.active {
+    background-color: #fff; /* Green color */
+    color: #000;
+  }
+
+  .chatapp {
+    color: #fff;
+    background-color: transparent;
+    margin-top: 100px;
+    display: flex;
+    border: 1px solid #fff;
+  }
+
+  .side-bar{
+    background-color: transparent;
+    backdrop-filter: blur(10px); 
+    height: 800px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .side-bar button {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px; /* Makes the button circular */
+    width: auto; /* Adjust the width and height as needed */
+    height: 50px;
+    margin: 0 5px; /* Add some margin between buttons */
+    cursor: pointer;
+    color: #fff;
+    transition: .3s;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .side-bar button:hover {
+    color: #000;
+    background-color: #fff;
+  }
+
+  .main{
+    background-color: transparent;
+    backdrop-filter: blur(10px); 
+    width: 1600px;
+  }
+
+  .nav-chat {
+    border-top: 2px solid white;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .history {
+    margin: 10px;
+    padding: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .history li {
+    list-style-type: none;
+    padding: 15px 0;
+    cursor: pointer;
+  }
+
+  .main{
+    height: 800px;
+    width: 1600px;
+    background-color: transparent;
+    backdrop-filter: blur(10px); 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.info {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    padding: 10px;
+}
+
+.bottom-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inp-container{
+    position: relative;
+    width: 100%;
+    max-width: 650px
+}
+
+.inp-inp{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    padding: 12px 15px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    font-size: 18px;
+    color: #fff;
+    margin: 20px;
+}
+
+.inp-inp:focus{
+    outline: none;
+}
+
+#submit {
+    position: absolute;
+    bottom: 31px;
+    right: 0px;
+    cursor: pointer;
+}
+
+.content-feed {
+    background-color: transparent;
+    backdrop-filter: blur(10px); 
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.content-feed li {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0;
+}
+.rrole {
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+
+.content-feed {
+    overflow: auto; /* Use auto to only show scrollbar when necessary */
+    display: flex;
+    flex-direction: column;
+}
+
+.content-feed::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+.content-feed::-webkit-scrollbar-track {
+    background: transparent; /* Background color of the scrollbar track */
+}
+
+.content-feed::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 1); /* Color of the scrollbar thumb */
+    border-radius: 5px; /* Border radius of the scrollbar thumb */
+}
+
+.content-feed::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255, 255, 255, 0.7); /* Color of the scrollbar thumb on hover */
+}
+
+.chatapp .line {
+    height: 800px;
+    width: 1px;
+    background-color: #fff;
+    color: #fff;
+}
+
+.inp-container .lineinc {
+    width: 685px;
+    height: 1px;
+    background-color: #fff;
+}
+
+.recomandations {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.recomandations button {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px; /* Makes the button circular */
+    width: auto; /* Adjust the width and height as needed */
+    height: 50px;
+    margin: 0 5px; /* Add some margin between buttons */
+    cursor: pointer;
+    color: #fff;
+    transition: .3s;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.recomandations button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.info-dom {
+    margin-top: 50px;
+    margin-bottom: -10px;
+}
+
+.program {
+    display: flex;
+    gap: 10px;
+}
+
+.long {
+    width: 1220px;
+}
+
+.content-nutri {
+    margin-top: 40px;
+}
+
+.titlu {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.ll {
+    margin-top: 30px;
+    display: flex;
+}
+
+.ll img{
+    margin-left: 20px;
+}
